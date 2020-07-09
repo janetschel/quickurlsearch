@@ -1,0 +1,20 @@
+{
+  "name": "Quick URL search",
+  "version": "0.0.1",
+  "description": "Search a website with a shortcut in the address bar",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.de/*", "*://www.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Quick URL search"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
