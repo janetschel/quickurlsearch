@@ -1,10 +1,15 @@
 const knownShortcuts = [
     {
         "shortcut": "mdn",
+        "name": "Mozilla Developer Network",
         "full": "https://developer.mozilla.org/de/search?q="
     },
-];
-
+    {
+        "shortcut": "s",
+        "name": "Stack Overflow",
+        "full": "https://stackoverflow.com/search?q="
+    }
+]
 const url = window.location.href;
 
 // if google search occurs on the google homepage the url is nested differently, thus the ternary condition inside the first split

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 5px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+div.wrapper {
+    display: grid;
+    grid-template-areas:
+            "heading heading help"
+            "shortcut name name";
+    grid-template-columns: auto;
+}
+
+div.wrapper > span {
+    font-size: 14px;
+}
+
+div.wrapper > span.heading {
+    grid-area: heading;
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px #bfbfbf solid;
+}
+
+div.wrapper > span.shortcut {
+    grid-area: shortcut;
+    margin-left: 0;
+}
+
+div.wrapper > span.name {
+    grid-area: name;
+    margin-left: 0;
+}
+
+div.wrapper > a.help {
+    grid-area: help;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: 1px #bfbfbf solid;
+}

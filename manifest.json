@@ -6,12 +6,12 @@
   "content_scripts": [
     {
       "matches": ["*://www.google.de/*", "*://www.google.com/*"],
-      "js": ["content.js"],
+      "js": ["scripts/content.js"],
       "run_at": "document_start"
     }
   ],
   "browser_action": {
-    "default_popup": "popup.html",
+    "default_popup": "popup/popup.html",
     "default_title": "Quick URL search"
   },
   "permissions": [
