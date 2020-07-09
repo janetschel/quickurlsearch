@@ -1,4 +1,4 @@
-# quickurlsearch
+# quickurlsearch Chrome extension
 Search a custom website quickly with built in shortcuts
 
 ## Features
@@ -11,7 +11,7 @@ For exmaple `!mdn substring` will forward you to the MDN site an search for `sub
 
 Only works when google is set as the default search engine
 
-**Please note** that this chrome extention is experimental and many more features will be added in the future
+**Please note** that this chrome extension is experimental and many more features will be added in the future
 
 
 ## License
