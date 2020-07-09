@@ -1,18 +1,35 @@
 # quickurlsearch Chrome extension
-Search a custom website quickly with built in shortcuts
+"quickurlseach" enables you to quickly search relevant websites with a simple shortcut right from your address bar in Chrome
 
-## Features
-### Version 0.0.1
+## Features in version 0.0.1
 
-**Experimental version!**
-In this version you can quickly lookup [MDN](https://developer.mozilla.org/) by typing `!mdn` in your address bar followed by the searchterm
+This is still an **experimental version**! Many important features are not implemented yet.  
+In this version you can quickly search specific websites with an easy shortcut right from your address bar. This does not only safe you some valuable clicks, it also keeps your workflow going
 
-For exmaple `!mdn substring` will forward you to the MDN site an search for `substring`, thus saving you valuable time
+### How it works
 
-Only works when google is set as the default search engine
+Searching works via the address bar.  
+By typing one of the following shortcuts in the address bar followed by the search term the respective website can be visited and searched.
 
-**Please note** that this chrome extension is experimental and many more features will be added in the future
+Supported websites are:
+
+
+| Shortcut       | Respective website         |
+| :--------------|:--------------------------:|
+| `!mdn`         | Mozilla Developer Network  |
+| `!s`           | Stack Overflow             |
+
+
+### Sample queries
+
+`!mdn array reduce` forwards you to [MDN Results: array reduce](https://developer.mozilla.org/de/search?q=array+reduce)  
+
+`!mdn substring prototype` forwards you to [MDN Results: substring prototype](https://developer.mozilla.org/de/search?q=substring+prototype)  
+
+`!s get date from string js` forwards you to [Stack Overflow: get date from string js](https://stackoverflow.com/search?q=get+date+from+string+js)
+
+
 
 
 ## License
-Licensed under [WTFPL](https://en.wikipedia.org/wiki/WTFPL#Terms#version)
+Licensed under [GNU General Public License](https://en.wikipedia.org/wiki/GNU_General_Public_License)
