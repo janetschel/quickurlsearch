@@ -9,6 +9,8 @@ In this version you can quickly lookup [MDN](https://developer.mozilla.org/) by 
 
 For exmaple `!mdn substring` will forward you to the MDN site an search for `substring`, thus saving you valuable time
 
+Only works when google is set as the default search engine
+
 **Please note** that this chrome extention is experimental and many more features will be added in the future
 
 
